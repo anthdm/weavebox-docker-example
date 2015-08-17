@@ -18,5 +18,5 @@ func main() {
 }
 
 func helloHandler(ctx *weavebox.Context) error {
-	return ctx.Text(http.StatusOK, "Hello from weavebox in a fancy docker container")
+	return ctx.Text(http.StatusOK, "Hello anthony from weavebox in a fancy docker container")
 }
