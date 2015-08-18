@@ -1,4 +1,4 @@
 # Weavebox example app for docker deployment demonstrations
 ## Some more intr
--hook test
+-hook test 1
 
