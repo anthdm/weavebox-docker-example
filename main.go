@@ -13,6 +13,7 @@ func main() {
 	flag.Parse()
 
 	app := weavebox.New()
+	app.EnableAccessLog = true
 	app.Get("/", helloHandler)
 	log.Fatal(app.Serve(*listen))
 }
