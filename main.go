@@ -19,5 +19,5 @@ func main() {
 }
 
 func helloHandler(ctx *weavebox.Context) error {
-	return ctx.Text(http.StatusOK, "Hellos you v22")
+	return ctx.Text(http.StatusOK, "Hellos you v23")
 }
